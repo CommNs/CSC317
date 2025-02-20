@@ -13,7 +13,7 @@
 <body>
   <header>
     <h1>Trinity Godwin</h1>
-    <img src="images/profile.png" width="300"/>
+    <img src="images/profile.png" width="300" alt="Profile Image"/>
   </header>
   <h2>Navigation</h2>
   <nav>
@@ -42,8 +42,9 @@
     </section>
 
     <section id="projects">
-      <h2>Projects</h2>
-      <article>This section would showcase my projects. Instead here is ascii cat I stole.
+      <article>
+        <h2>Projects</h2>
+        This section would showcase my projects. Instead here is ascii cat I stole.
         <pre>      _..---...,""-._     ,/}/)
           .''        ,      ``..'(/-<
          /   _      {      )         \
@@ -52,7 +53,8 @@
      (  <\_-) )'-.____...\  `._   //-'
       `. `-' /-._)))      `-._)))
         `...'      hjw
-         </pre>
+         </pre> <!--Yes this causes warnings / errors on W3 because it thinks I'm trying
+         and failing to escape characters which I'm not actually doing-->
 
       </article>
     </section>
@@ -98,7 +100,7 @@
    <section>
     <h2>Super Cool Song :D</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ElwIg6qP4J0?si=XQXkF7YzCCW5ioIn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </section>
+  </section> <!--Yes this also causes an error on W3 but that is Youtube's fault-->
 
   </main>
   <footer>
