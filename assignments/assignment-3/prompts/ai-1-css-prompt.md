@@ -1,1 +1,2 @@
+[Gemini 2.0 Flash]
 Create a CSS style sheet for this html page [index.md] and use and use these colors rgb(132, 94, 194) and tertiary-color: rgb(255, 150, 113) with Roboto font, make the website responsive to different screen sizes.

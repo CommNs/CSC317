@@ -46,6 +46,10 @@ nav>ul{
     text-align: left;
 }
 
+input[type="submit"]:hover {
+    background-color: rgb(255, 120, 80);
+   }
+
 @media all and (min-width: 900px) {
     :root{
         font-size: calc(1.5 * var(--default-font-size));
