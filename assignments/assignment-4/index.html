@@ -1,18 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>JavaScript Practice</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="styles/style.css">
+	<meta name="description" content="Personal portfolio and collection of Trinity Godwin">
+	<meta name="keywords" content="portfolio, web development, student">
+	<title>Trinity Godwin - Portfolio</title>
 </head>
+
 <body>
-    <h1>JavaScript Week 0 Practice</h1>
-    <button id="greetButton">Click Me!</button>
-    <div id="output"></div>
-    
-    <script src="scripts/hello.js"></script>
-    <script>
-        document.getElementById("greetButton").addEventListener("click", function() {
-            document.getElementById("output").textContent = createMessage("JavaScript");
-        });
-    </script>
+
+<header>
+	<div class="container">
+		<section id="top">
+			<h1>Trinity Godwin's Portfolio</h1>
+			<img src="images/profile.png" alt="Profile Image"/>
+			<h2>Navigation</h2>
+			<nav>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#achievments">Achievments</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#contacts">Contacts</a></li>
+				</ul>
+			</nav>
+		</section>
+	</div>
+</header>
+
+<main>
+	<div class="container">
+		<section id="about">
+			<h2>About Me</h2>
+			<img src="images/school-logo.png" alt="Profile Picture"/>
+			<p>
+				My name is Trinity Godwin, a student at San Francisco State University. I am passionate
+				about web development and design. I have experience in HTML, CSS,
+				and JavaScript, and I'm always eager to learn new technologies.
+				I am currently studying computer science and focusing on front-end
+				development. I am excited to apply my skills and knowledge to real-world projects.
+			</p>
+		</section>
+	</div>
+
+	<div class="container">
+		<section id="projects">
+			<article>
+				<h2>Projects</h2>
+				<a href="calculator.html">JavaScript Calculator</a>
+				<p>This calculator is a simple calculator built with vanilla javascript, html, and css styling. It has addition, subtraction, multiplication, division, the modulus operator, and exponent evaluation. </p>
+				<img src="images/calculator.png" alt="Screenshot of Calculator App"/>
+			</article>
+		</section>
+	</div>
+
+	<div class="container">
+		<section id="education">
+			<h2>Education</h2>
+			<ul>
+				<li>San Francisco University
+					<ul>
+						<li>Major: Computer Science</li>
+						<li>Expected Graduation: 2025</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+	</div>
+
+
+	<div class="container">
+		<section id="achievments">
+			<h2>Achievments</h2>
+			<table>
+				<tr>
+				 	<th>Award</th>
+					<th>Dates</th>
+				</tr>
+
+				<tr>
+					<td>Being Really Cool</td>
+					<td>June 2023 - August 2025</td>
+				</tr>
+
+				<tr>
+					<td>Being Super Evil</td>
+					<td>Jan 1, 1600 - Now</td>
+				</tr>
+			</table>
+		</section>
+	</div>
+
+	<div class="container">
+		<section id="experience">
+			<h2>Experience</h2>
+			<ol>
+				<li>McDonalds | Jun 2022 - Novemeber 2022</li>
+				<li>Evil Inc. | March 2024 - December 2024</li>
+			</ol>
+		</section>
+	</div>
+
+	<div class="container">
+		<section>
+			<h2>Super Cool Song :D</h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/ElwIg6qP4J0?si=XQXkF7YzCCW5ioIn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</section>
+	</div>
+</main>
+
+<footer>
+	<div class="container">
+		<section id="contacts">
+			<h2>You Can Reach Me @</h2>
+			<p><b>Email:</b> cgodwin@mail.sfsu.edu</p>
+			<form>
+				<p>Or Direct Message With An Email To Respond To</p>
+				<input type="email" id="email" placeholder="Enter your email"> 
+				<input type="text" id="message_box" placeholder="Your message here"> 
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</div>
+
+	<p>&copy; 2024 Trinity Godwin</p>
+</footer>
 </body>
 </html>

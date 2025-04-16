@@ -39,9 +39,14 @@ body {
     grid-template-columns: repeat(4, 60px);
     gap: 10px;
   }
-  
+  .buttons a {
+    font-size: calc(1.2 * var(--default-font-size));
+    text-align: center;
+    grid-column: span 4;
+    background-color: #f4f4f4;
+  }
   .buttons button {
-    font-size: 1.2em;
+    font-size: calc(1.2 * var(--default-font-size));
     padding: 15px;
     border: none;
     background-color: #e0e0e0;
