@@ -15,18 +15,18 @@
 
     font: var(--font-primary);
     font-size: var(--default-font-size);
-
-    background-color: rgba(255, 150, 113, .25);
+    display: grid;
+    place-items:center;
+    background-color: rgba(255, 151, 113, 0.055);
 }
 
 .container {
     display: grid;
     place-items: center;
-
+    max-width: 1000px;
     border-radius: 2em;
-    border: .3em solid rgba(62, 62, 62, 0.534);
-
-    background-color: rgba(132, 94, 194, 0.15); /* Primary-Color with transparency */
+    border: .3em solid rgba(62, 62, 62, 0.411);
+    background-color: rgba(132, 94, 194, 0.097); /* Primary-Color with transparency */
 
     margin:1vw;
 }
@@ -41,6 +41,7 @@ input {
     margin-bottom: 1em;
     min-width: 10vw;
     min-height: 3vw;
+    font-size: 24px;
 }
 nav>ul{
     text-align: left;
